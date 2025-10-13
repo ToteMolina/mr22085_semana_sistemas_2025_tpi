@@ -1,0 +1,52 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php82-apache_sds25
+    ports:
+      - "8083:80"           # App en http://localhost:8081
+    volumes:
+      - .:/var/www/html # Tu código local en ./src
+    depends_on:
+      db:
+        condition: service_healthy
+
+
+  db:
+    image: mysql:8.0
+    container_name: mysql80_sds25
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: appdb
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppass
+    ports:
+      - "3307:3306"         # Opcional exponerlo al host
+    volumes:
+      - db_data_sds25:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -prootpass || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: phpmyadmin_sds25
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: rootpass
+    ports:
+      - "8084:80"           # phpMyAdmin en http://localhost:8082
+
+
+volumes:
+  db_data_sds25:
