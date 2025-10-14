@@ -97,3 +97,21 @@ a:hover {
     width: 200px;
     text-align: center;
 }
+
+/* Día 1 */
+.dia1_sds25 {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+.dia1_sds25::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 88, 114, 0.5);
+    z-index: 1;
+}

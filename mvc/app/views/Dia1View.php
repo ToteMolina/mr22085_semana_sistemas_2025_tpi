@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Sistemas 2025</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dia1_sds25">
+            <div class="header">
+                <div class="inicio"><a href="../public/">Inicio</a></div>
+                <div class="dia1"><a href="dia1">Día 1</a></div>
+                <div class="dia2"><a href="dia2">Día 2</a></div>
+                <div class="dia3"><a href="dia3">Día 3</a></div>
+                <div class="dia4"><a href="dia4">Día 4</a></div>
+                <div class="dia5"><a href="dia5">Día 5</a></div>
+                <div class="perfil"><a href="perfil">Perfil</a></div>
+            </div>
+            <div class="titulo">
+                <h1>Día 1: Ponencias + Hackathon</h1>
+            </div>
+        </div>
+        <div class="info">
+            <!-- Ponencia 1: El ABC de Bitcoin -->
+            <div class="ponencia caja">
+                <h2>Ponencia 1: El ABC de Bitcoin</h2>
+                <p><strong>Ponente:</strong> MSc. Luis Contreras</p>
+
+                <div class="tema">
+                    <h3>La Evolución del Dinero</h3>
+                    <p>La ponencia inició con un recorrido histórico sobre cómo el dinero ha evolucionado a través del
+                        tiempo, desde el trueque hasta las monedas digitales. Se exploró cómo cada etapa de esta
+                        evolución ha respondido a las necesidades económicas y tecnológicas de su época.</p>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>¿Qué es Bitcoin?</h3>
+                        <p>Bitcoin es una moneda digital descentralizada que opera sin la necesidad de intermediarios
+                            como
+                            bancos o gobiernos. Es la primera criptomoneda creada en 2009 por Satoshi Nakamoto, diseñada
+                            para permitir transacciones directas entre personas de forma segura y transparente.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../img/dia1_sds25_pon1.jpg" alt="¿Qué es el bitcoin?">
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Consecuencias del Dinero Fiduciario</h3>
+                        <p>Se analizaron los desafíos del dinero fiduciario actual, incluyendo la inflación, la pérdida
+                            de
+                            poder adquisitivo, el control centralizado por gobiernos y bancos centrales, y la
+                            dependencia de
+                            políticas monetarias que pueden afectar negativamente a los ciudadanos.</p>
+                    </div>
+
+                    <div class="fotografia">
+
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Sistema Fiat vs Bitcoin</h3>
+                        <p><strong>Sistema Fiat:</strong> Moneda controlada por gobiernos, emisión ilimitada, valor
+                            respaldado por la confianza en el gobierno, centralizado.</p>
+                        <p><strong>Bitcoin:</strong> Descentralizado, oferta limitada a 21 millones de unidades,
+                            transparente, sin intermediarios, resistente a la censura.</p>
+                    </div>
+                    <div class="fotografia">
+
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Los Tres Pilares de Bitcoin</h3>
+                        <p><strong>1. Bitcoin (Unidad Monetaria):</strong> La moneda digital que se utiliza para
+                            realizar
+                            transacciones y almacenar valor.</p>
+                        <p><strong>2. La Red:</strong> Un conjunto de nodos (computadoras) conectados alrededor del
+                            mundo
+                            que mantienen y validan el sistema.</p>
+                        <p><strong>3. La Cadena de Bloques (Blockchain):</strong> Un registro público e inmutable de
+                            todas
+                            las transacciones verificadas, vinculadas en bloques secuenciales.</p>
+                    </div>
+                    <div class="fotografia">
+
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Transacciones Entre Pares (P2P)</h3>
+                        <p>Bitcoin permite transacciones directas entre personas sin necesidad de intermediarios. Esto
+                            significa que puedes enviar dinero a cualquier persona en el mundo de forma rápida, segura y
+                            con
+                            comisiones mínimas, sin depender de bancos o procesadores de pago.</p>
+                    </div>
+                    <div class="fotografia">
+
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Tipos de Wallets (Carteras)</h3>
+                        <p><strong>Wallets Custodiadas:</strong> Una tercera parte (exchange o plataforma) controla tus
+                            claves privadas. Son más fáciles de usar pero menos seguras, ya que no tienes control total
+                            de
+                            tus fondos.</p>
+                        <p><strong>Wallets No Custodiadas:</strong> Tú controlas tus propias claves privadas. Ofrecen
+                            mayor
+                            seguridad y autonomía, pero requieren más responsabilidad por parte del usuario.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div class="tema">
+                    <div class="texto">
+                        <h3>Tipos de Transacciones</h3>
+                        <p><strong>Lightning:</strong> Red de segunda capa para transacciones instantáneas y de bajo
+                            costo.
+                        </p>
+                        <p><strong>Factura Lightning:</strong> Solicitud de pago en la red Lightning.</p>
+                        <p><strong>Lightning LNURL:</strong> Protocolo para simplificar pagos en Lightning Network.</p>
+                        <p><strong>Dirección Lightning:</strong> Identificador para recibir pagos en Lightning Network.
+                        </p>
+                        <p><strong>On-chain:</strong> Transacciones registradas directamente en la blockchain de
+                            Bitcoin.
+                        </p>
+                        <p><strong>Legacy:</strong> Formato de dirección original de Bitcoin (empieza con 1).</p>
+                        <p><strong>SegWit:</strong> Segregated Witness - Formato mejorado de transacciones (empieza con
+                            3).
+                        </p>
+                        <p><strong>Bech32:</strong> Formato de dirección nativa SegWit (empieza con bc1).</p>
+                        <p><strong>Taproot:</strong> Última actualización de Bitcoin para mayor privacidad y eficiencia
+                            (empieza con bc1p).</p>
+                        <p><strong>Transacciones Especiales:</strong> Incluyen multifirma, timelock, y contratos
+                            inteligentes básicos.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ponencia 2: IA Generativa -->
+            <div class="ponencia caja">
+                <h2>Ponencia 2: Inteligencia Artificial Generativa, de la idea a la acción</h2>
+                <p><strong>Ponente:</strong> MSc. Rodrigo Pineda</p>
+
+                <div class="cita">
+                    <p><em>"Las tecnologías no son una amenaza en sí mismas, la verdadera amenaza es aceptarlas de
+                            manera pasiva y desinformada."</em> - Neil Postman</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Pregunta Inicial</h3>
+                    <p>¿Es necesaria una capacitación para usar una inteligencia artificial? Esta pregunta abrió la
+                        reflexión sobre la importancia de comprender las herramientas que utilizamos y no simplemente
+                        adoptarlas sin conocimiento crítico.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Transformación Digital</h3>
+                    <p>La IA está generando una transformación caracterizada por tres elementos clave:</p>
+                    <p><strong>Incertidumbre:</strong> Vivimos en un entorno de cambio constante donde es difícil
+                        predecir el futuro tecnológico.</p>
+                    <p><strong>Velocidad:</strong> Los avances tecnológicos ocurren a un ritmo acelerado, exigiendo
+                        adaptación continua.</p>
+                    <p><strong>Transversal:</strong> La IA afecta a todas las profesiones y áreas del conocimiento, no
+                        solo a la tecnología.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>¿Qué es la Inteligencia Artificial?</h3>
+                    <p>La inteligencia es la capacidad de entender o comprender, y también la capacidad de resolver
+                        problemas.</p>
+                    <p>La Inteligencia Artificial es la ciencia e ingeniería de hacer máquinas inteligentes,
+                        especialmente programas de cómputo inteligentes que puedan realizar tareas que normalmente
+                        requieren inteligencia humana.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Clasificación de la IA según su Capacidad</h3>
+                    <p><strong>IA Débil o IA Estrecha (Narrow AI):</strong> Diseñada para realizar tareas específicas.
+                        Es la IA que usamos actualmente, como asistentes virtuales, sistemas de recomendación o
+                        reconocimiento facial. Está limitada a su función específica.</p>
+                    <p><strong>IA Fuerte o IA General (AGI):</strong> Hipotética IA con capacidades cognitivas
+                        equivalentes a las humanas. Podría entender, aprender y aplicar conocimiento en cualquier
+                        dominio, similar a cómo lo hace un ser humano. Aún no existe.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Fundamentos de la IA</h3>
+                    <p>La IA se basa en principios fundamentales que permiten a las máquinas procesar información,
+                        aprender de datos y tomar decisiones. Estos fundamentos incluyen algoritmos, estructuras de
+                        datos, y métodos matemáticos que simulan procesos cognitivos.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Elementos de un Sistema Cognitivo de Machine Learning</h3>
+                    <p><strong>Aprendizaje Supervisado:</strong> El modelo aprende de datos etiquetados (con respuestas
+                        conocidas).</p>
+                    <p><strong>Aprendizaje No Supervisado:</strong> El modelo encuentra patrones en datos sin etiquetar.
+                    </p>
+                    <p><strong>Aprendizaje Semisupervisado:</strong> Combina datos etiquetados y no etiquetados.</p>
+                    <p><strong>Aprendizaje con Refuerzo:</strong> El modelo aprende mediante prueba y error, recibiendo
+                        recompensas o castigos.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Diferencias entre ML, DL y FM</h3>
+                    <p><strong>Machine Learning (ML):</strong> Simple → Simple. Modelos que aprenden patrones simples de
+                        datos simples.</p>
+                    <p><strong>Deep Learning (DL):</strong> Complejo → Simple. Procesa datos complejos (imágenes, audio)
+                        y produce resultados simples usando redes neuronales profundas.</p>
+                    <p><strong>Foundation Model (FM):</strong> Complejo → Complejo. Modelos masivos preentrenados que
+                        pueden realizar múltiples tareas complejas y generar contenido complejo.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Redes Generativas Antagónicas (GAN)</h3>
+                    <p>Inventadas en 2014 por investigadores canadienses, las GAN (Generative Adversarial Networks)
+                        funcionan con dos redes neuronales que compiten entre sí:</p>
+                    <p><strong>Generador:</strong> Crea contenido falso (imágenes, audio, etc.)</p>
+                    <p><strong>Discriminador:</strong> Intenta distinguir entre contenido real y falso</p>
+                    <p>Esta competencia mejora continuamente la calidad del contenido generado.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>LLM (Large Language Models)</h3>
+                    <p>Modelos de Lenguaje de Gran Escala son sistemas de IA entrenados con cantidades masivas de texto
+                        que pueden comprender y generar lenguaje natural. Ejemplos incluyen GPT, Claude, y otros modelos
+                        que están transformando cómo interactuamos con la tecnología.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
