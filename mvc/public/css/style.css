@@ -4,7 +4,9 @@ body {
     font-family: monospace;
 }
 
-.header{
+.header {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,15 +17,17 @@ body {
     font-size: 16px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: lightseagreen;
 }
 
-.dia1_inicio{
+.dia1_inicio {
+    position: relative;
     background-image: url("../img/dia1_inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,11 +35,65 @@ a:hover{
     margin: 0;
 }
 
-.titulo{
+.dia1_inicio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 88, 114, 0.5);
+    z-index: 1;
+}
+
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100dvh;
     color: white;
-    font-size: 48px;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja {
+    text-align: justify;
+    padding: 35px;
+    font-size: 16px;
+}
+
+.que-es {
+    background-color: rgb(69, 127, 146);
+    color: white;
+    text-align: justify;
+}
+.que-es h2{
+    text-align: end;
+}
+
+.agenda h2 {
+    text-align: center;
+}
+
+.dias{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.dia-agenda{
+    background-color: rgb(69, 127, 146);
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+}
+.dia-agenda p{
+    width: 200px;
+    text-align: center;
 }
