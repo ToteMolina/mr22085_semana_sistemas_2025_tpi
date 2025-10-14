@@ -45,7 +45,7 @@
                             para permitir transacciones directas entre personas de forma segura y transparente.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../img/dia1_sds25_pon1.jpg" alt="¿Qué es el bitcoin?">
+                        <img src="../public/img/dia1_sds25_pon1.jpg" alt="¿Qué es el bitcoin?">
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="fotografia">
-
+                        <img src="../public/img/dia1_sds25_pon1_2.jpg" alt="Consecuencias del Dinero Fiduciario">
                     </div>
                 </div>
 
@@ -73,7 +73,7 @@
                             transparente, sin intermediarios, resistente a la censura.</p>
                     </div>
                     <div class="fotografia">
-
+                        <img src="../public/img/dia1_sds25_pon1_3.jpg" alt="Sistema Fiat vs Bitcoin">
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
                             las transacciones verificadas, vinculadas en bloques secuenciales.</p>
                     </div>
                     <div class="fotografia">
-
+                        <img src="../public/img/dia1_sds25_pon1_4.jpg" alt="Los Tres Pilares de Bitcoin">
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@
                             comisiones mínimas, sin depender de bancos o procesadores de pago.</p>
                     </div>
                     <div class="fotografia">
-
+                        <img src="../public/img/dia1_sds25_pon1_5.jpg" alt="Transacciones Entre Pares">
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@
                             seguridad y autonomía, pero requieren más responsabilidad por parte del usuario.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="" alt="">
+                        <img src="../public/img/dia1_sds25_pon1_6.jpg" alt="Tipos de Wallets">
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@
                             inteligentes básicos.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="" alt="">
+                        <img src="../public/img/dia1_sds25_pon1_7.jpg" alt="Tipos de Transacciones">
                     </div>
                 </div>
             </div>
