@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semana de Sistemas 2025</title>
+    <title>Día 1 - Semana de Sistemas 2025</title>
 </head>
 
 <body>
