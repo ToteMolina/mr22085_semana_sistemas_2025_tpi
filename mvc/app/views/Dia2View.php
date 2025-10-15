@@ -32,7 +32,11 @@
                 <div class="tema">
                     <h3>¿Qué es un dato y cómo se construye la información?</h3>
                     <p>Un dato es una representación simbólica (numérica, alfabética, etc.) de un atributo o característica. La información se construye cuando procesamos, organizamos y damos contexto a los datos, transformándolos en conocimiento útil para la toma de decisiones.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1.jpg" alt="Dato">
+                    </div>
                 </div>
+                
 
                 <div class="tema">
                     <h3>Datos Aplicados a Sucesos de la Vida Diaria</h3>
@@ -42,6 +46,9 @@
                 <div class="tema">
                     <h3>Observando Volúmenes de Datos</h3>
                     <p>Se analizó cómo grandes volúmenes de datos (Big Data) están presentes en todos los sectores. La capacidad de procesar y analizar estos datos masivos se ha convertido en una ventaja competitiva fundamental para organizaciones y profesionales.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_2.png" alt="Volúmenes">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -52,6 +59,9 @@
                 <div class="tema">
                     <h3>Estudiantes de Informática en El Salvador</h3>
                     <p>Se compartieron datos específicos sobre la población estudiantil en carreras de informática y tecnología en El Salvador, incluyendo tendencias de matrícula, género, especialidades y proyecciones de graduación.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_3.png" alt="Gráfica">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -76,6 +86,11 @@
                     • Quiebres de stock (productos agotados)</p>
                     
                     <p><strong>Dataset utilizado:</strong> Documento con 10,000 registros de transacciones reales que fue procesado y filtrado durante la demostración en vivo.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_4.png" alt="Datos">
+                        <img src="../public/img/dia2_sds25_taller1_5.png" alt="Tabla">
+                        <img src="../public/img/dia2_sds25_taller1_6.png" alt="Tabla Dinámica">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -86,11 +101,17 @@
                 <div class="tema">
                     <h3>Python - Google Colab</h3>
                     <p>Se realizó un análisis de datos usando Python en Google Colab, mostrando librerías como Pandas para manipulación de datos, Matplotlib para visualizaciones y técnicas de análisis exploratorio de datos (EDA) aplicadas al mismo dataset de 10,000 registros.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_7.png" alt="Python - Google Colab">
+                    </div>
                 </div>
 
                 <div class="tema">
                     <h3>Utilizando Inteligencia Artificial para Extraer Información</h3>
                     <p>Se demostró cómo herramientas de IA pueden automatizar el análisis de grandes volúmenes de datos. Usando el documento de 10,000 registros, se mostró cómo la IA puede identificar patrones, generar insights y crear reportes automáticos que aceleran la toma de decisiones.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_8.png" alt="IA">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -137,6 +158,10 @@
                 <div class="tema">
                     <h3>Rangos Salariales TI (Referenciales)</h3>
                     <p>Se compartieron rangos salariales aproximados para diferentes roles en tecnología en El Salvador y la región, ayudando a los estudiantes a tener expectativas realistas sobre compensaciones según nivel de experiencia y especialización.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_10.png" alt="Rango">
+                        <img src="../public/img/dia2_sds25_taller1_9.png" alt="Salarios">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -151,6 +176,9 @@
                     <p><strong>Plan de 30-60-90 días:</strong> Establecer metas de aprendizaje claras y medibles para cada mes, con objetivos específicos y alcanzables.</p>
                     <p><strong>Proyecto Práctico Mensual:</strong> Realizar al menos un proyecto práctico cada mes usando datasets públicos (Kaggle, data.gov, etc.).</p>
                     <p><strong>Mentoría y Comunidad:</strong> Buscar mentores en el área de interés y participar activamente en comunidades tecnológicas locales e internacionales.</p>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2_sds25_taller1_11.png" alt="Metas">
+                    </div>
                 </div>
             </div>
         </div>
