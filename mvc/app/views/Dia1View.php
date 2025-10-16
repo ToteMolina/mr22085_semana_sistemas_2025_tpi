@@ -36,8 +36,8 @@
                         evolución ha respondido a las necesidades económicas y tecnológicas de su época.</p>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
                         <h3>¿Qué es Bitcoin?</h3>
                         <p>Bitcoin es una moneda digital descentralizada que opera sin la necesidad de intermediarios
                             como
@@ -45,12 +45,12 @@
                             para permitir transacciones directas entre personas de forma segura y transparente.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1.jpg" alt="¿Qué es el bitcoin?">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1.jpg" alt="¿Qué es el bitcoin?">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
                         <h3>Consecuencias del Dinero Fiduciario</h3>
                         <p>Se analizaron los desafíos del dinero fiduciario actual, incluyendo la inflación, la pérdida
                             de
@@ -60,12 +60,13 @@
                     </div>
 
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_2.jpg" alt="Consecuencias del Dinero Fiduciario">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_2.jpg"
+                            alt="Consecuencias del Dinero Fiduciario">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
                         <h3>Sistema Fiat vs Bitcoin</h3>
                         <p><strong>Sistema Fiat:</strong> Moneda controlada por gobiernos, emisión ilimitada, valor
                             respaldado por la confianza en el gobierno, centralizado.</p>
@@ -73,12 +74,12 @@
                             transparente, sin intermediarios, resistente a la censura.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_3.jpg" alt="Sistema Fiat vs Bitcoin">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_3.jpg" alt="Sistema Fiat vs Bitcoin">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
                         <h3>Los Tres Pilares de Bitcoin</h3>
                         <p><strong>1. Bitcoin (Unidad Monetaria):</strong> La moneda digital que se utiliza para
                             realizar
@@ -91,12 +92,12 @@
                             las transacciones verificadas, vinculadas en bloques secuenciales.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_4.jpg" alt="Los Tres Pilares de Bitcoin">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_4.jpg" alt="Los Tres Pilares de Bitcoin">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
                         <h3>Transacciones Entre Pares (P2P)</h3>
                         <p>Bitcoin permite transacciones directas entre personas sin necesidad de intermediarios. Esto
                             significa que puedes enviar dinero a cualquier persona en el mundo de forma rápida, segura y
@@ -104,12 +105,12 @@
                             comisiones mínimas, sin depender de bancos o procesadores de pago.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_5.jpg" alt="Transacciones Entre Pares">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_5.jpg" alt="Transacciones Entre Pares">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
                         <h3>Tipos de Wallets (Carteras)</h3>
                         <p><strong>Wallets Custodiadas:</strong> Una tercera parte (exchange o plataforma) controla tus
                             claves privadas. Son más fáciles de usar pero menos seguras, ya que no tienes control total
@@ -120,12 +121,12 @@
                             seguridad y autonomía, pero requieren más responsabilidad por parte del usuario.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_6.jpg" alt="Tipos de Wallets">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_6.jpg" alt="Tipos de Wallets">
                     </div>
                 </div>
 
-                <div class="tema">
-                    <div class="texto">
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
                         <h3>Tipos de Transacciones</h3>
                         <p><strong>Lightning:</strong> Red de segunda capa para transacciones instantáneas y de bajo
                             costo.
@@ -148,7 +149,7 @@
                             inteligentes básicos.</p>
                     </div>
                     <div class="fotografia">
-                        <img src="../public/img/dia1_sds25_pon1_7.jpg" alt="Tipos de Transacciones">
+                        <img src="../public/img/dia1/Ponencia1/dia1_sds25_pon1_7.jpg" alt="Tipos de Transacciones">
                     </div>
                 </div>
             </div>
@@ -170,24 +171,35 @@
                         adoptarlas sin conocimiento crítico.</p>
                 </div>
 
-                <div class="tema">
-                    <h3>Transformación Digital</h3>
-                    <p>La IA está generando una transformación caracterizada por tres elementos clave:</p>
-                    <p><strong>Incertidumbre:</strong> Vivimos en un entorno de cambio constante donde es difícil
-                        predecir el futuro tecnológico.</p>
-                    <p><strong>Velocidad:</strong> Los avances tecnológicos ocurren a un ritmo acelerado, exigiendo
-                        adaptación continua.</p>
-                    <p><strong>Transversal:</strong> La IA afecta a todas las profesiones y áreas del conocimiento, no
-                        solo a la tecnología.</p>
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Transformación Digital</h3>
+                        <p>La IA está generando una transformación caracterizada por tres elementos clave:</p>
+                        <p><strong>Incertidumbre:</strong> Vivimos en un entorno de cambio constante donde es difícil
+                            predecir el futuro tecnológico.</p>
+                        <p><strong>Velocidad:</strong> Los avances tecnológicos ocurren a un ritmo acelerado, exigiendo
+                            adaptación continua.</p>
+                        <p><strong>Transversal:</strong> La IA afecta a todas las profesiones y áreas del conocimiento,
+                            no
+                            solo a la tecnología.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Ponencia2/dia1_sds25_pon2.jpg" alt="Transformación Digital">
+                    </div>
                 </div>
 
-                <div class="tema">
-                    <h3>¿Qué es la Inteligencia Artificial?</h3>
-                    <p>La inteligencia es la capacidad de entender o comprender, y también la capacidad de resolver
-                        problemas.</p>
-                    <p>La Inteligencia Artificial es la ciencia e ingeniería de hacer máquinas inteligentes,
-                        especialmente programas de cómputo inteligentes que puedan realizar tareas que normalmente
-                        requieren inteligencia humana.</p>
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>¿Qué es la Inteligencia Artificial?</h3>
+                        <p>La inteligencia es la capacidad de entender o comprender, y también la capacidad de resolver
+                            problemas.</p>
+                        <p>La Inteligencia Artificial es la ciencia e ingeniería de hacer máquinas inteligentes,
+                            especialmente programas de cómputo inteligentes que puedan realizar tareas que normalmente
+                            requieren inteligencia humana.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Ponencia2/dia1_sds25_pon2_2.jpg" alt="¿Qué es la IA?">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -199,23 +211,36 @@
                         equivalentes a las humanas. Podría entender, aprender y aplicar conocimiento en cualquier
                         dominio, similar a cómo lo hace un ser humano. Aún no existe.</p>
                 </div>
-
-                <div class="tema">
-                    <h3>Fundamentos de la IA</h3>
-                    <p>La IA se basa en principios fundamentales que permiten a las máquinas procesar información,
-                        aprender de datos y tomar decisiones. Estos fundamentos incluyen algoritmos, estructuras de
-                        datos, y métodos matemáticos que simulan procesos cognitivos.</p>
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Fundamentos de la IA</h3>
+                        <p>La IA se basa en principios fundamentales que permiten a las máquinas procesar información,
+                            aprender de datos y tomar decisiones. Estos fundamentos incluyen algoritmos, estructuras de
+                            datos, y métodos matemáticos que simulan procesos cognitivos.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Ponencia2/dia1_sds25_pon2_3.jpg" alt="Fundamentos de la IA">
+                    </div>
                 </div>
 
-                <div class="tema">
-                    <h3>Elementos de un Sistema Cognitivo de Machine Learning</h3>
-                    <p><strong>Aprendizaje Supervisado:</strong> El modelo aprende de datos etiquetados (con respuestas
-                        conocidas).</p>
-                    <p><strong>Aprendizaje No Supervisado:</strong> El modelo encuentra patrones en datos sin etiquetar.
-                    </p>
-                    <p><strong>Aprendizaje Semisupervisado:</strong> Combina datos etiquetados y no etiquetados.</p>
-                    <p><strong>Aprendizaje con Refuerzo:</strong> El modelo aprende mediante prueba y error, recibiendo
-                        recompensas o castigos.</p>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Elementos de un Sistema Cognitivo de Machine Learning</h3>
+                        <p><strong>Aprendizaje Supervisado:</strong> El modelo aprende de datos etiquetados (con
+                            respuestas
+                            conocidas).</p>
+                        <p><strong>Aprendizaje No Supervisado:</strong> El modelo encuentra patrones en datos sin
+                            etiquetar.
+                        </p>
+                        <p><strong>Aprendizaje Semisupervisado:</strong> Combina datos etiquetados y no etiquetados.</p>
+                        <p><strong>Aprendizaje con Refuerzo:</strong> El modelo aprende mediante prueba y error,
+                            recibiendo
+                            recompensas o castigos.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Ponencia2/dia1_sds25_pon2_4.jpg" alt="Machine Learning">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -228,13 +253,18 @@
                         pueden realizar múltiples tareas complejas y generar contenido complejo.</p>
                 </div>
 
-                <div class="tema">
-                    <h3>Redes Generativas Antagónicas (GAN)</h3>
-                    <p>Inventadas en 2014 por investigadores canadienses, las GAN (Generative Adversarial Networks)
-                        funcionan con dos redes neuronales que compiten entre sí:</p>
-                    <p><strong>Generador:</strong> Crea contenido falso (imágenes, audio, etc.)</p>
-                    <p><strong>Discriminador:</strong> Intenta distinguir entre contenido real y falso</p>
-                    <p>Esta competencia mejora continuamente la calidad del contenido generado.</p>
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Redes Generativas Antagónicas (GAN)</h3>
+                        <p>Inventadas en 2014 por investigadores canadienses, las GAN (Generative Adversarial Networks)
+                            funcionan con dos redes neuronales que compiten entre sí:</p>
+                        <p><strong>Generador:</strong> Crea contenido falso (imágenes, audio, etc.)</p>
+                        <p><strong>Discriminador:</strong> Intenta distinguir entre contenido real y falso</p>
+                        <p>Esta competencia mejora continuamente la calidad del contenido generado.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Ponencia2/dia1_sds25_pon2_5.jpg" alt="Redes GAN">
+                    </div>
                 </div>
 
                 <div class="tema">
@@ -249,76 +279,121 @@
                 <h2>Hackathon SDS25</h2>
                 <p><strong>Horario:</strong> 2:00 p.m. - Tarde</p>
 
-                <div class="tema">
-                    <h3>Inicio de la Competencia</h3>
-                    <p>Aproximadamente a las 2:00 PM dio inicio el esperado Hackathon de la Semana de Sistemas 2025. Los
-                        participantes se organizaron en equipos de trabajo y recibieron el contexto bajo el cual debían
-                        desarrollar una problemática real junto con su respectiva solución tecnológica. Cabe destacar
-                        que varios equipos ya llegaron con propuestas adelantadas, por lo que aprovecharon el tiempo
-                        disponible para pulir detalles finales y perfeccionar sus presentaciones.</p>
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Inicio de la Competencia</h3>
+                        <p>Aproximadamente a las 2:00 PM dio inicio el esperado Hackathon de la Semana de Sistemas 2025.
+                            Los
+                            participantes se organizaron en equipos de trabajo y recibieron el contexto bajo el cual
+                            debían
+                            desarrollar una problemática real junto con su respectiva solución tecnológica. Cabe
+                            destacar
+                            que varios equipos ya llegaron con propuestas adelantadas, por lo que aprovecharon el tiempo
+                            disponible para pulir detalles finales y perfeccionar sus presentaciones.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Hackathon/dia1_sds25_hack.jpg" alt="Inicio Hackathon">
+                    </div>
                 </div>
 
                 <div class="tema">
                     <h3>Equipos Participantes</h3>
                     <p>Un total de 5 equipos pusieron a prueba sus habilidades técnicas y creatividad:</p>
 
-                    <div class="equipo">
-                        <h4>Luis y su Pandilla</h4>
-                        <p>Desarrollaron un sistema completo de gestión de citas para una clínica veterinaria,
-                            incluyendo funcionalidades para agendar, modificar y visualizar appointments de mascotas.
-                        </p>
+                    <div class="equipo caja_foto caja_foto_par">
+                        <div class="texto caja_foto_texto">
+                            <h4>Luis y su Pandilla</h4>
+                            <p>Desarrollaron un sistema completo de gestión de citas para una clínica veterinaria,
+                                incluyendo funcionalidades para agendar, modificar y visualizar appointments de
+                                mascotas.
+                            </p>
+                        </div>
+                        <div class="fotografia">
+                            <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_2.jpg" alt="Luis y su Pandilla">
+                        </div>
                     </div>
 
-                    <div class="equipo">
-                        <h4>Los Mcníficos</h4>
-                        <p>Plantearon una problemática enfocada en un sistema de gestión de reservas y control de
-                            asistencia, aunque su propuesta quedó en fase de planteamiento sin implementación funcional.
-                        </p>
+                    <div class="equipo caja_foto caja_foto_impar">
+                        <div class="texto caja_foto_texto">
+                            <h4>Los Mcníficos</h4>
+                            <p>Plantearon una problemática enfocada en un sistema de gestión de reservas y control de
+                                asistencia, aunque su propuesta quedó en fase de planteamiento sin implementación
+                                funcional.
+                            </p>
+                        </div>
+                        <div class="fotografia">
+                            <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_3.jpg" alt="Los Mcníficos">
+                        </div>
                     </div>
 
-                    <div class="equipo">
-                        <h4>Web Team</h4>
-                        <p>Sorprendieron con una aplicación web interactiva de Bingo completamente funcional. Durante la
-                            presentación, invitaron a los asistentes del hackathon a participar en una partida en vivo
-                            para demostrar el correcto funcionamiento de todas las características de su aplicación.</p>
+                    <div class="equipo caja_foto caja_foto_par">
+                        <div class="texto caja_foto_texto">
+                            <h4>Web Team</h4>
+                            <p>Sorprendieron con una aplicación web interactiva de Bingo completamente funcional.
+                                Durante la
+                                presentación, invitaron a los asistentes del hackathon a participar en una partida en
+                                vivo
+                                para demostrar el correcto funcionamiento de todas las características de su aplicación.
+                            </p>
+                        </div>
+                        <div class="fotografia">
+                            <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_4.jpg" alt="Web Team">
+                        </div>
                     </div>
 
-                    <div class="equipo">
-                        <h4>Negreira Boys (Luis Galeas)</h4>
-                        <p>En una demostración individual, Luis Galeas presentó un sistema de gestión de citas
-                            veterinarias desarrollado completamente en consola, mostrando dominio de la programación
-                            orientada a línea de comandos.</p>
+                    <div class="equipo caja_foto caja_foto_impar">
+                        <div class="texto caja_foto_texto">
+                            <h4>Negreira Boys (Luis Galeas)</h4>
+                            <p>En una demostración individual, Luis Galeas presentó un sistema de gestión de citas
+                                veterinarias desarrollado completamente en consola, mostrando dominio de la programación
+                                orientada a línea de comandos.</p>
+                        </div>
+                        <div class="fotografia">
+                            <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_5.jpg" alt="Negreira Boys">
+                        </div>
                     </div>
 
-                    <div class="equipo">
-                        <h4>Los Franquitos</h4>
-                        <p>Construyeron un sistema de gestión académica para el manejo de calificaciones estudiantiles,
-                            implementado mediante interfaz de consola con funcionalidades CRUD completas.</p>
+                    <div class="equipo caja_foto caja_foto_par">
+                        <div class="texto caja_foto_texto">
+                            <h4>Los Franquitos</h4>
+                            <p>Construyeron un sistema de gestión académica para el manejo de calificaciones
+                                estudiantiles,
+                                implementado mediante interfaz de consola con funcionalidades CRUD completas.</p>
+                        </div>
+                        <div class="fotografia">
+                            <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_6.jpg" alt="Los Franquitos">
+                        </div>
                     </div>
                 </div>
 
-                <div class="tema">
-                    <h3>Ceremonia de Premiación</h3>
-                    <p>Tras las deliberaciones del jurado, se anunciaron los resultados oficiales del Hackathon SDS25:
-                    </p>
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Ceremonia de Premiación</h3>
+                        <p>Tras las deliberaciones del jurado, se anunciaron los resultados oficiales del Hackathon
+                            SDS25:
+                        </p>
 
-                    <p><strong>Primer Lugar - Web Team</strong><br>
-                        Premio: Medalla de Oro + $15<br>
-                        Con su innovadora aplicación de Bingo web, demostraron excelencia técnica y una presentación
-                        impecable.</p>
+                        <p><strong>Primer Lugar - Web Team</strong><br>
+                            Premio: Medalla de Oro + $15<br>
+                            Con su innovadora aplicación de Bingo web, demostraron excelencia técnica y una presentación
+                            impecable.</p>
 
-                    <p><strong>Segundo Lugar - Luis y su Pandilla</strong><br>
-                        Premio: Medalla de Plata + $10<br>
-                        Su sistema de gestión veterinaria destacó por su completitud y utilidad práctica.</p>
+                        <p><strong>Segundo Lugar - Luis y su Pandilla</strong><br>
+                            Premio: Medalla de Plata + $10<br>
+                            Su sistema de gestión veterinaria destacó por su completitud y utilidad práctica.</p>
 
-                    <p><strong>Tercer Lugar - Negreira Boys (Luis Galeas)</strong><br>
-                        Reconocimiento por el esfuerzo individual y dominio técnico en desarrollo de consola.</p>
+                        <p><strong>Tercer Lugar - Negreira Boys (Luis Galeas)</strong><br>
+                            Reconocimiento por el esfuerzo individual y dominio técnico en desarrollo de consola.</p>
 
-                    <p><strong>Cuarto Lugar - Los Franquitos</strong><br>
-                        Sistema funcional de gestión de notas con buena implementación de conceptos básicos.</p>
+                        <p><strong>Cuarto Lugar - Los Franquitos</strong><br>
+                            Sistema funcional de gestión de notas con buena implementación de conceptos básicos.</p>
 
-                    <p><strong>Quinto Lugar - Los Mcníficos</strong><br>
-                        Propuesta conceptual interesante que requería mayor desarrollo técnico.</p>
+                        <p><strong>Quinto Lugar - Los Mcníficos</strong><br>
+                            Propuesta conceptual interesante que requería mayor desarrollo técnico.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia1/Hackathon/dia1_sds25_hack_7.jpg" alt="Premiación">
+                    </div>
                 </div>
 
                 <div class="tema">

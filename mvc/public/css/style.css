@@ -28,7 +28,7 @@ a:hover {
 
 .dia1_inicio {
     position: relative;
-    background-image: url("../img/dia1_inicio.jpg");
+    background-image: url("../img/dia1/dia1_inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -65,7 +65,7 @@ a:hover {
 
 .caja {
     text-align: justify;
-    padding: 35px;
+    padding: 45px;
     font-size: 16px;
 }
 
@@ -74,6 +74,7 @@ a:hover {
     color: white;
     text-align: justify;
 }
+
 .que-es h2{
     text-align: end;
 }
@@ -87,12 +88,14 @@ a:hover {
     flex-direction: row;
     gap: 20px;
 }
+
 .dia-agenda{
     background-color: rgb(69, 127, 146);
     color: white;
     border-radius: 12px;
     padding: 12px;
 }
+
 .dia-agenda p{
     width: 200px;
     text-align: center;
@@ -116,8 +119,59 @@ a:hover {
     z-index: 1;
 }
 
+/* ===================== */
+
+.caja_foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.caja_foto_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.fotografia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .fotografia img {
     width: 400px;
     height: auto;
+    border-radius: 16px;
 }
 
+/* Impares: texto izquierda, foto derecha */
+.caja_foto_impar .caja_foto_texto {
+    order: 1;
+}
+
+.caja_foto_impar .fotografia {
+    order: 2;
+}
+
+/* Pares: foto izquierda, texto derecha */
+.caja_foto_par .caja_foto_texto {
+    order: 2;
+}
+
+.caja_foto_par .fotografia {
+    order: 1;
+}
+
+/* Estilo para citas */
+.cita {
+    font-style: italic;
+    padding: 20px;
+    background-color: rgba(69, 127, 146, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
+}
