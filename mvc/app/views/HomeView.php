@@ -11,7 +11,7 @@
     <div class="container">
         <div class="dia1_inicio">
             <div class="header">
-                <div class="inicio"><a href="">Inicio</a></div>
+                <div class="inicio"><a href="../public/">Inicio</a></div>
                 <div class="dia1"><a href="dia1">Día 1</a></div>
                 <div class="dia2"><a href="dia2">Día 2</a></div>
                 <div class="dia3"><a href="dia3">Día 3</a></div>
