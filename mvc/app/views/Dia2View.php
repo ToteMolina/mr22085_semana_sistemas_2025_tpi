@@ -233,6 +233,171 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Taller 2: Construyendo un CRUD en minutos con Laravel y Filament -->
+            <div class="ponencia caja">
+                <h2>Taller 2: Construyendo un CRUD en minutos con Laravel y Filament</h2>
+                <p><strong>Tallerista:</strong> Ing. Gabriel Castillo</p>
+
+                <div class="tema">
+                    <h3>¿Qué es Filament?</h3>
+                    <p>Filament es un panel de administración para Laravel, fácil de usar y altamente personalizable,
+                        ideal para crear dashboards, formularios y CRUDs rápidamente.</p>
+                </div>
+
+                <div class="tema">
+                    <h3>Características Clave</h3>
+                    <ul>
+                        <li>Interfaz moderna basada en Tailwind CSS</li>
+                        <li>CRUDs automáticos y listos para usar</li>
+                        <li>Panel de administración funcional desde el primer momento</li>
+                        <li>Soporte para formularios, tablas, relaciones, filtros y más</li>
+                        <li>Ampliable con plugins</li>
+                    </ul>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Estructura del Proyecto</h3>
+                        <p>Muestra cómo está organizado el proyecto creado con Laravel y Filament, incluyendo carpetas y
+                            módulos principales.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_1.jpg" alt="Estructura del Proyecto">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Pantalla de Login</h3>
+                        <p>Visualiza la interfaz de login del panel de administración, lista para autenticación de
+                            usuarios.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_2.jpg" alt="Login">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Dashboard</h3>
+                        <p>Dashboard con usuario logeado, mostrando mensaje de bienvenida y versión de Filament v4.1.8.
+                        </p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_3.jpg" alt="Dashboard Usuario">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Vista de Productos</h3>
+                        <p>Tabla de productos mostrando Nombre, Descripción, Precio, Stock y Tallas.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_4.jpg" alt="Vista de Productos">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Agregar Producto</h3>
+                        <p>Formularios para crear un producto con campos: nombre, descripción, precio, imagen y tallas
+                            (talla, color y cantidad).</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_5.jpg" alt="Agregar Producto 1">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_6.jpg" alt="Agregar Producto 2">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_7.jpg" alt="Agregar Producto 3">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Producto Creado</h3>
+                        <p>Muestra la información del producto recién creado en la base de datos y listo para uso.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_8.jpg" alt="Producto Creado">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Vista de Productos Actualizada</h3>
+                        <p>Se muestra la tabla de Productos incluyendo el dato creado previamente, verificando que se
+                            guardó correctamente.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_9.jpg" alt="Productos Actualizados">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Vista de Tallas</h3>
+                        <p>Visualización de tallas asociadas al producto, que se agregaron automáticamente al crear el
+                            producto.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_10.jpg" alt="Tallas Producto">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Usuarios Registrados</h3>
+                        <p>Lista de usuarios actualmente registrados, mostrando Name, Email y Email Verified At.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_11.jpg" alt="Usuarios Registrados">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Crear Usuario</h3>
+                        <p>Formularios para agregar un nuevo usuario con campos: Name, Email, Roles (super_admin), Email
+                            Verified At y Password.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_12.jpg" alt="Crear Usuario 1">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_13.jpg" alt="Crear Usuario 2">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Roles</h3>
+                        <p>Vista de Roles y tabla mostrando los roles activos actualmente, como super_admin.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_14.jpg" alt="Roles">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_par">
+                    <div class="texto caja_foto_texto">
+                        <h3>Plugin de Notificaciones</h3>
+                        <p>Demostración de un plugin de notificaciones integrado al panel de Filament.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_15.jpg" alt="Plugin Notificaciones">
+                    </div>
+                </div>
+
+                <div class="tema caja_foto caja_foto_impar">
+                    <div class="texto caja_foto_texto">
+                        <h3>Modo Oscuro</h3>
+                        <p>Vista de la página web en modo oscuro, mostrando soporte de temas y personalización de
+                            Filament.</p>
+                    </div>
+                    <div class="fotografia">
+                        <img src="../public/img/dia2/Taller2/dia2_sds25_taller2_16.jpg" alt="Modo Oscuro">
+                    </div>
+                </div>
+            </div>
+
             <!-- Taller 3: IA Multimodal -->
             <div class="ponencia caja">
                 <h2>Taller 3: IA Multimodal: Creando el Futuro Visual e Inteligente con n8n. De texto a imagen que
@@ -242,12 +407,16 @@
                 <div class="tema caja_foto caja_foto_par">
                     <div class="texto caja_foto_texto">
                         <h3>¿Qué es la Inteligencia Artificial Multimodal?</h3>
-                        <p>El término <strong>“multimodal”</strong> se refiere a la capacidad de una IA para comprender y
+                        <p>El término <strong>“multimodal”</strong> se refiere a la capacidad de una IA para comprender
+                            y
                             procesar distintos tipos de información de manera simultánea. Esto incluye texto, imágenes,
-                            audio y video, integrando todos estos canales en un solo modelo capaz de razonar de forma más
+                            audio y video, integrando todos estos canales en un solo modelo capaz de razonar de forma
+                            más
                             cercana a cómo lo hace una persona.</p>
-                        <p>Gracias a esta combinación, las IA multimodales pueden analizar contextos más amplios, generar
-                            resultados más coherentes y ofrecer respuestas que conectan diferentes tipos de datos entre sí.
+                        <p>Gracias a esta combinación, las IA multimodales pueden analizar contextos más amplios,
+                            generar
+                            resultados más coherentes y ofrecer respuestas que conectan diferentes tipos de datos entre
+                            sí.
                         </p>
                     </div>
                     <div class="fotografia">

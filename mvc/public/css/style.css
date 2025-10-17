@@ -192,12 +192,12 @@ a:hover {
     font-size: 16px;
 }
 
-a {
+.header_perfil a {
     color: rgb(55, 134, 160);
     text-decoration: none;
 }
 
-a:hover {
+.header_perfil a:hover {
     color: white;
 }
 
