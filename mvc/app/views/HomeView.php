@@ -60,11 +60,11 @@
                     </div>
                     <div class="dia-agenda">
                         <h2>Día 4 (Lunes 16)</h2>
-                        <p>Feria de logros y pupuseada</p>
+                        <p>Feria de logros y Comelona de pupusas</p>
                     </div>
                     <div class="dia-agenda">
                         <h2>Día 5 (Lunes 17)</h2>
-                        <p>Por confirmar...</p>
+                        <p>Bingo, Torneo de Videojuegos</p>
                     </div>
                 </div>
             </div>
