@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Día 5 - Semana de Sistemas 2025</title>
-    <link rel="stylesheet" href="../public/css/dia5.css">
+    <link rel="stylesheet" href="../public/css/grid-fotos.css">
 </head>
 
 <body>
@@ -163,7 +163,7 @@
                         de la Universidad de El Salvador.</p>
                 </div>
 
-                <div class="galeria_diplomas">
+                <div class="grid-fotos">
                     <!-- 26 fotografías -->
                     <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_1.jpg" alt="Entrega de diplomas 1">
                     <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_2.jpg" alt="Entrega de diplomas 2">

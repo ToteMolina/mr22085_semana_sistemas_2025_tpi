@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Día 4 - Semana de Sistemas 2025</title>
+    <link rel="stylesheet" href="../public/css/grid-fotos.css">
 </head>
 
 <body>
@@ -282,32 +283,18 @@
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_1.jpg" alt="Comelona de Pupusas 1">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_2.jpg" alt="Comelona de Pupusas 2">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_3.jpg" alt="Comelona de Pupusas 3">
-                    </div>
-                </div>
-
-                <div class="tema caja_foto caja_foto_par">
-                    <div class="fotografia">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_4.jpg" alt="Comelona de Pupusas 4">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_5.jpg" alt="Comelona de Pupusas 5">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_6.jpg" alt="Comelona de Pupusas 6">
-                    </div>
-                </div>
-
-                <div class="tema caja_foto caja_foto_impar">
-                    <div class="fotografia">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_7.jpg" alt="Comelona de Pupusas 7">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_8.jpg" alt="Comelona de Pupusas 8">
                         <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_9.jpg" alt="Comelona de Pupusas 9">
+                        <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_10.jpg"
+                            alt="Comelona de Pupusas 10">
+                        <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_11.jpg"
+                            alt="Comelona de Pupusas 11">
                     </div>
                 </div>
-
-                <div class="tema caja_foto caja_foto_par">
-                    <div class="fotografia">
-                        <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_10.jpg" alt="Comelona de Pupusas 10">
-                        <img src="../public/img/dia4/Pupuseada/dia4_sds25_pupuseada_11.jpg" alt="Comelona de Pupusas 11">
-                    </div>
-                </div>
-
             </div>
 
 

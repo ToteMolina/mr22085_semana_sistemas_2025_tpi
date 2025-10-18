@@ -1,3 +1,4 @@
+/* ========================= Estilos Generales ========================= */
 body {
     background-color: lightblue;
     margin: 0;
@@ -26,6 +27,7 @@ a:hover {
     color: lightseagreen;
 }
 
+/* ========================= Día 1 - Fondo ========================= */
 .dia1_inicio {
     position: relative;
     background-image: url("../img/dia1/dia1_inicio.jpg");
@@ -101,7 +103,7 @@ a:hover {
     text-align: center;
 }
 
-/* Día 1 */
+/* ========================= Día 1 - Sección ========================= */
 .dia1_sds25 {
     position: relative;
     height: 100vh;
@@ -119,8 +121,7 @@ a:hover {
     z-index: 1;
 }
 
-/* ===================== */
-
+/* ========================= Caja con fotos ========================= */
 .caja_foto {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -178,7 +179,7 @@ a:hover {
     margin: 20px 0;
 }
 
-/* PERFIL */
+/* ========================= Perfil ========================= */
 .header_perfil {
     position: relative;
     z-index: 2;
@@ -243,7 +244,38 @@ a:hover {
     color: rgb(55, 134, 160);
 }
 
-/* Responsivo */
+/* ========================= Grid automático si hay más de 3 fotos ========================= */
+.fotografia:has(img:nth-child(4)) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    justify-items: center;
+}
+
+.fotografia img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========================= Responsivo ========================= */
+@media (max-width: 1024px) {
+    .caja_foto {
+        grid-template-columns: 1fr;
+    }
+
+    .caja_foto_impar .caja_foto_texto,
+    .caja_foto_impar .fotografia,
+    .caja_foto_par .caja_foto_texto,
+    .caja_foto_par .fotografia {
+        order: unset;
+    }
+
+    .fotografia {
+        width: 100%;
+        gap: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
@@ -257,5 +289,14 @@ a:hover {
 
     .card {
         max-width: 90%;
+    }
+
+    .fotografia {
+        grid-template-columns: 1fr !important;
+    }
+
+    .fotografia img {
+        width: 100%;
+        max-width: none;
     }
 }
