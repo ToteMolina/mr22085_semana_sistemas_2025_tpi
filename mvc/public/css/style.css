@@ -11,11 +11,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
     gap: 20px;
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -33,7 +34,9 @@ a:hover {
     background-image: url("../img/dia1/dia1_inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
+    min-height: 500px;
     margin: 0;
 }
 
@@ -53,22 +56,27 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100dvh;
+    min-height: 500px;
     color: white;
-    font-size: 16px;
+    font-size: clamp(14px, 2vw, 16px);
     position: relative;
     z-index: 2;
+    padding: 20px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .caja {
     text-align: justify;
-    padding: 45px;
-    font-size: 16px;
+    padding: clamp(20px, 5vw, 45px);
+    font-size: clamp(14px, 2vw, 16px);
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .que-es {
@@ -79,16 +87,20 @@ a:hover {
 
 .que-es h2{
     text-align: end;
+    font-size: clamp(18px, 3vw, 24px);
 }
 
 .agenda h2 {
     text-align: center;
+    font-size: clamp(18px, 3vw, 24px);
 }
 
 .dias{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .dia-agenda{
@@ -96,17 +108,21 @@ a:hover {
     color: white;
     border-radius: 12px;
     padding: 12px;
+    min-width: 150px;
 }
 
 .dia-agenda p{
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     text-align: center;
+    font-size: clamp(13px, 1.8vw, 16px);
 }
 
 /* ========================= Día 1 - Sección ========================= */
 .dia1_sds25 {
     position: relative;
     height: 100vh;
+    min-height: 500px;
     margin: 0;
 }
 
@@ -125,9 +141,10 @@ a:hover {
 .caja_foto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: clamp(15px, 3vw, 30px);
     align-items: center;
     margin-bottom: 30px;
+    padding: 0 15px;
 }
 
 .caja_foto_texto {
@@ -147,7 +164,8 @@ a:hover {
 }
 
 .fotografia img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 16px;
 }
@@ -173,10 +191,11 @@ a:hover {
 /* Estilo para citas */
 .cita {
     font-style: italic;
-    padding: 20px;
+    padding: clamp(15px, 3vw, 20px);
     background-color: rgba(69, 127, 146, 0.1);
     border-radius: 8px;
     margin: 20px 0;
+    font-size: clamp(13px, 1.8vw, 16px);
 }
 
 /* ========================= Perfil ========================= */
@@ -186,11 +205,12 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
     gap: 20px;
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
+    flex-wrap: wrap;
 }
 
 .header_perfil a {
@@ -207,13 +227,14 @@ a:hover {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    padding: 60px 20px;
+    padding: clamp(30px, 5vw, 60px) 20px;
     text-align: left;
     gap: 30px;
 }
 
 .picture img {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
@@ -222,10 +243,11 @@ a:hover {
 
 .card {
     background-color: lightsteelblue;
-    padding: 30px 40px;
+    padding: clamp(20px, 4vw, 30px) clamp(25px, 5vw, 40px);
     border-radius: 16px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     max-width: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,11 +257,11 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
     color: rgb(55, 134, 160);
-    font-size: 22px;
+    font-size: clamp(18px, 3vw, 22px);
 }
 
 .card p {
-    font-size: 16px;
+    font-size: clamp(14px, 2vw, 16px);
     margin: 8px 0;
     color: rgb(55, 134, 160);
 }
@@ -248,23 +270,29 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 .campos {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    max-width: 400px;
 }
 
 label {
     color: rgb(13, 69, 87);
+    font-size: clamp(14px, 2vw, 16px);
 }
 
 input {
     border-radius: 8px;
     border: 2px solid rgb(55, 134, 160);
-    padding: 5px;
+    padding: clamp(5px, 1.5vw, 8px);
+    font-size: clamp(14px, 2vw, 16px);
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .btn_registrar {
@@ -272,26 +300,30 @@ input {
     border: 2px solid rgb(55, 134, 160);
     background-color: lightblue;
     color: rgb(13, 69, 87);
-    padding: 5px;
+    padding: clamp(8px, 2vw, 10px);
+    font-size: clamp(14px, 2vw, 16px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_registrar:hover {
+    background-color: rgb(55, 134, 160);
+    color: white;
 }
 
 /* ========================= Grid automático si hay más de 3 fotos ========================= */
 .fotografia:has(img:nth-child(4)) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 12px;
     justify-items: center;
-}
-
-.fotografia img {
-    max-width: 100%;
-    height: auto;
 }
 
 /* ========================= Responsivo ========================= */
 @media (max-width: 1024px) {
     .caja_foto {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .caja_foto_impar .caja_foto_texto,
@@ -305,29 +337,107 @@ input {
         width: 100%;
         gap: 15px;
     }
+
+    .fotografia img {
+        max-width: 90%;
+    }
 }
 
 @media (max-width: 768px) {
+    .header,
+    .header_perfil {
+        font-size: 14px;
+        gap: 15px;
+        padding: 10px 5px;
+    }
+
     .profile {
         flex-direction: column;
         align-items: center;
+        padding: 30px 15px;
     }
 
     .picture img {
         width: 100%;
+        max-width: 300px;
         height: auto;
     }
 
     .card {
-        max-width: 90%;
+        max-width: 100%;
+        width: 90%;
     }
 
     .fotografia {
-        grid-template-columns: 1fr !important;
+        gap: 12px;
+    }
+
+    .fotografia:has(img:nth-child(4)) {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
 
     .fotografia img {
         width: 100%;
         max-width: none;
+    }
+
+    .dias {
+        gap: 15px;
+    }
+
+    .dia-agenda {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header,
+    .header_perfil {
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .titulo {
+        padding: 15px;
+    }
+
+    .caja {
+        padding: 15px;
+    }
+
+    .fotografia:has(img:nth-child(4)) {
+        grid-template-columns: 1fr;
+    }
+
+    .picture img {
+        max-width: 100%;
+    }
+
+    .card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .registro {
+        padding: 30px 10px;
+    }
+
+    .campos {
+        width: 95%;
+    }
+
+    .dias {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .dia-agenda {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .dia-agenda p {
+        max-width: 100%;
     }
 }
