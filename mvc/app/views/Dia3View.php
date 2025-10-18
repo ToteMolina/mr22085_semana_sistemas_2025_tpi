@@ -21,7 +21,6 @@
             <div class="dia5"><a href="dia5">Día 5</a></div>
             <div class="perfil"><a href="perfil">Perfil</a></div>
             <div class="registrar"><a href="registrar">Registrar</a></div>
-            <div class="extra"><a href="extra">Extra</a></div>
         </div>
         <div class="titulo">
             <h1>Día 3: Tonero de Fútbol (cancelado por las lluvias...)</h1>

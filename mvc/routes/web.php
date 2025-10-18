@@ -12,10 +12,8 @@ Route::get("/dia4", [HomeController::class, "mostrarDia4"]);
 Route::get("/dia5", [HomeController::class, "mostrarDia5"]);
 
 Route::get("/perfil", [HomeController::class, "mostrarPerfil"]);
-
-/* Route::get("/formulario", [HomeController::class, "mostrarFormulario"]);
-Route::post("/save", [HomeController::class, "recibirFormulario"]);
-Route::get("/buscarId/:id", [HomeController::class, "buscarId"]); */
+Route::get("/registrar", [HomeController::class, "mostrarRegistrar"]);
+Route::post("/registrar", [HomeController::class, "mostrarRegistrar"]);
 
 Route::dispatch();
 

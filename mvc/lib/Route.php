@@ -35,11 +35,11 @@ class Route
                 $params = array_slice($matches, 1);
                 //echo json_encode($params);
                 //$content = $funcion(...$params);
-                
-                if (is_callable($funcion)){
+
+                if (is_callable($funcion)) {
                     $content = $funcion(...$params);
                 }
-                if (is_array($funcion)){
+                if (is_array($funcion)) {
                     $controlador = new $funcion[0];
                     $content = $controlador->{$funcion[1]}(...$params);
                     //return;
@@ -55,6 +55,5 @@ class Route
         }
         echo "404";
     }
-
 }
 ?>

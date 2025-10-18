@@ -18,7 +18,6 @@
             <div class="dia5"><a href="dia5">Día 5</a></div>
             <div class="perfil"><a href="perfil">Perfil</a></div>
             <div class="registrar"><a href="registrar">Registrar</a></div>
-            <div class="extra"><a href="extra">Extra</a></div>
         </div>
         <div class="profile">
             <div class="picture">
@@ -32,7 +31,8 @@
                     <p><strong>Nombre: </strong>Josué Iván Molina Romero</p>
                     <p><strong>Edad: </strong>22 años</p>
                     <p><strong>Dirección: </strong>San Miguel, El Salvador</p>
-                    <p><strong>Universidad: </strong>Universidad de El Salvador, Facultad Multidisciplinaria Oriental</p>
+                    <p><strong>Universidad: </strong>Universidad de El Salvador, Facultad Multidisciplinaria Oriental
+                    </p>
                     <p><strong>Carrera: </strong>Ingeniería de Sistemas Informáticos</p>
                     <p><strong>Carnet: </strong>MR22085</p>
                 </div>

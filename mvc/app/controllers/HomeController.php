@@ -33,6 +33,33 @@ class HomeController extends controller {
     public function mostrarPerfil(){
         return $this->view("PerfilView");
     }
+    public function mostrarRegistrar(){
+        $mensaje = '';
+        
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $personaModel = new Persona_model();
+            $data = [
+                "nombre" => $_POST['nombre'] ?? '',
+                "apellido" => $_POST['apellido'] ?? '',
+                "due" => $_POST['due'] ?? '',
+                "edad" => $_POST['edad'] ?? '',
+                "direccion" => $_POST['direccion'] ?? '',
+            ];
+
+            // Validar si ya existe
+            if ($personaModel->existePersona($data['nombre'], $data['apellido'], $data['due'])) {
+                $mensaje = "¡La persona ya está registrada!";
+            } else {
+                if ($personaModel->guardarPerona($data)) {
+                    $mensaje = "¡Persona registrada correctamente!";
+                } else {
+                    $mensaje = "Error al registrar la persona";
+                }
+            }
+        }
+
+        return $this->view("RegistrarView", ['mensaje' => $mensaje]);
+    }
 }
 
 ?>

@@ -2,22 +2,21 @@
 
 namespace lib;
 
-class controller {
-    public function view($vista, $data=[]){
+class controller
+{
+    public function view($vista, $data = [])
+    {
         //require_once("../app/views/HomeView.php");
         extract($data);
-        if(file_exists("../app/views/$vista.php")){
+        if (file_exists("../app/views/$vista.php")) {
             ob_start();
             include "../app/views/$vista.php";
             $content = ob_get_clean();
             return $content;
-        }
-        else{
+        } else {
             echo "vista no encotrada ../app/views/$vista.php";
         }
         return "hola desde la pagina Home";
-
-
     }
 }
 
