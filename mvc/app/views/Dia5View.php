@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Día 5 - Semana de Sistemas 2025</title>
+    <link rel="stylesheet" href="../public/css/dia5.css">
 </head>
 
 <body>
@@ -137,6 +138,62 @@
                 </div>
 
             </div>
+
+            <!-- ENTREGA DE DIPLOMAS -->
+            <div class="ponencia caja">
+                <h2>Entrega de Diplomas</h2>
+
+                <div class="tema">
+                    <p>Para culminar con broche de oro la Semana de Sistemas 2025, se realizó la esperada
+                        <b>Entrega de Diplomas</b>, un momento lleno de orgullo, emoción y reconocimiento.
+                    </p>
+                    <p>Durante el acto, se hizo entrega de diplomas a todos los estudiantes que presentaron proyectos en
+                        la
+                        <b>Feria de Logros</b>, como símbolo del esfuerzo, compromiso y dedicación que demostraron a lo
+                        largo del ciclo o en el ciclo anterior.
+                    </p>
+                    <p>Además, se otorgaron <b>medallas especiales</b> a los equipos ganadores del día de la feria,
+                        reconociendo su destacada participación, innovación y trabajo en equipo.
+                        Cada reconocimiento fue un recordatorio de que la constancia, la pasión por aprender y la
+                        colaboración
+                        son pilares esenciales en la formación de un ingeniero en sistemas.</p>
+                    <p>El ambiente estuvo lleno de alegría, aplausos y compañerismo,
+                        marcando el final de una semana inolvidable que reflejó el verdadero espíritu de la comunidad
+                        tecnológica
+                        de la Universidad de El Salvador.</p>
+                </div>
+
+                <div class="galeria_diplomas">
+                    <!-- 26 fotografías -->
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_1.jpg" alt="Entrega de diplomas 1">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_2.jpg" alt="Entrega de diplomas 2">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_3.jpg" alt="Entrega de diplomas 3">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_4.jpg" alt="Entrega de diplomas 4">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_5.jpg" alt="Entrega de diplomas 5">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_6.jpg" alt="Entrega de diplomas 6">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_7.jpg" alt="Entrega de diplomas 7">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_8.jpg" alt="Entrega de diplomas 8">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_9.jpg" alt="Entrega de diplomas 9">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_10.jpg" alt="Entrega de diplomas 10">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_11.jpg" alt="Entrega de diplomas 11">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_12.jpg" alt="Entrega de diplomas 12">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_13.jpg" alt="Entrega de diplomas 13">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_14.jpg" alt="Entrega de diplomas 14">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_15.jpg" alt="Entrega de diplomas 15">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_16.jpg" alt="Entrega de diplomas 16">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_17.jpg" alt="Entrega de diplomas 17">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_18.jpg" alt="Entrega de diplomas 18">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_19.jpg" alt="Entrega de diplomas 19">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_20.jpg" alt="Entrega de diplomas 20">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_21.jpg" alt="Entrega de diplomas 21">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_22.jpg" alt="Entrega de diplomas 22">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_23.jpg" alt="Entrega de diplomas 23">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_24.jpg" alt="Entrega de diplomas 24">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_25.jpg" alt="Entrega de diplomas 25">
+                    <img src="../public/img/dia5/Diplomas/dia5_sds25_diploma_26.jpg" alt="Entrega de diplomas 26">
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

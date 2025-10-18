@@ -51,19 +51,19 @@
                         <p>Inauguración + Ponencias sobre Bitcoin e IA + Hackathon</p>
                     </div>
                     <div class="dia-agenda">
-                        <h2>Día 2 (Lunes 14)</h2>
+                        <h2>Día 2 (Martes 14)</h2>
                         <p>Talleres</p>
                     </div>
                     <div class="dia-agenda">
-                        <h2>Día 3 (Lunes 15)</h2>
+                        <h2>Día 3 (Miércoles 15)</h2>
                         <p>Torneo de Fútbol 11</p>
                     </div>
                     <div class="dia-agenda">
-                        <h2>Día 4 (Lunes 16)</h2>
+                        <h2>Día 4 (Jueves 16)</h2>
                         <p>Feria de logros y Comelona de pupusas</p>
                     </div>
                     <div class="dia-agenda">
-                        <h2>Día 5 (Lunes 17)</h2>
+                        <h2>Día 5 (Viernes 17)</h2>
                         <p>Bingo, Torneo de Videojuegos</p>
                     </div>
                 </div>
